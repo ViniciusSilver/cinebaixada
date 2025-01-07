@@ -1,0 +1,213 @@
+body {
+    background-color: #090909;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.titulo * {
+    box-sizing: border-box;
+}
+
+.titulo {
+    margin-left: 300px;
+    margin-top: 50px;
+    grid-column: 1;
+    grid-row: 1 / 5;
+    color: #faf1ff;
+    font-family: "BonaNova-Regular", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+    width: 282px;
+    height: 31px;
+}
+
+#cidades * {
+    box-sizing: border-box;
+}
+
+#cidades {
+    grid-column: 2;
+    grid-row: 1 / 1;
+    height: 40px;
+    width: fit-content;
+    margin-top: 50px;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    position: relative;
+    background-color: #433d8b;
+    border: 1px solid #433d8b;
+    border-radius: 10px;
+    color: #faf1ff;
+}
+
+#cidades option {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    outline: none;
+    text-align: center;
+    color: #faf1ff;
+
+}
+
+#cinemas {
+    grid-column: 3;
+    grid-row: 1 / 1;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 50px;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    position: relative;
+    background-color: #433d8b;
+    border: 1px solid #433d8b;
+    border-radius: 10px;
+    color: #faf1ff;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-left: 300px;
+    margin-right: 420px;
+    background-color: #433D8B;
+    border: 0.5px solid #A36EBD;
+    border-radius: 12px;
+    max-height: 940px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-menu img {
+
+    max-height: 940px;
+    border: 1px hidden;
+    border-radius: 12px 0 0 12px;
+}
+
+.filmetitulo {
+    margin-top: 18px;
+    color: #faf1ff;
+    font-family: "BonaNova-Regular", sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+
+}
+
+.container-menu p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #faf1ff;
+    font-family: "Lato", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buttons-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    width: fit-content;
+    margin-top: 12px;
+}
+
+.buttons-menu button {
+    font-family: "BonaNova-Regular", sans-serif;
+    background-color: #2E236C;
+    border: 1px solid #A36EBD;
+    border-radius: 8px;
+    padding: 10px;
+    margin: auto;
+    width: fit-content;
+    color: #f8e9ff;
+}
+
+.buttons-menu button:hover {
+    background-color: #140d38;
+    cursor: pointer;
+}
+
+.horarios-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #251F6D;
+    width: 520px;
+    height: max-content;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    border: 1px solid #C8ACD6;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.horarios-container h1 {
+    margin-top: 10px;
+    color: #faf1ff;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 62px;
+    height: 16px;
+}
+
+.horarios-container p {
+    color: #faf1ff;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    width: max-content;
+
+}
+
+.horario {
+    display: flex;
+    background-color: #251F6D;
+    color: #FAF1FF;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #A36EBD;
+    border-radius: 12px;
+    width: 153px;
+    height: 35px;
+}
+
+.horario span {
+    margin-top: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.horarioslinha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 15px;
+}
